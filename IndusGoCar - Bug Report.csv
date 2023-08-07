@@ -1,0 +1,33 @@
+Indus Go Car App Bug Report,,,,,,
+Reported by: KARUNAKARAN,,,,Reported to: RUGMA,,
+Date:16-May-2023,,,,Environment Details:,,
+Bug id,Expected Result,Bug Description,Steps to Reproduce,Severity,Priority,SS
+DEF_INDGOCAR_01,profile photo should be removable/deletable,profile photo should not removable/deletable,"1.open the app mobile
+2.Locate my profile
+3.Add new photo and try to remove/delete ",Minor,,
+DEF_INDGOCAR_02,uploaded driving license should be original image of license,accept uploaded driving license image is not license image,"1.open the app mobile
+2.Locate my profile
+3.Add license photo ",Major,,https://drive.google.com/file/d/106AYxo19gjHuCEtpto4GxYoeraX13etL/view?usp=sharing
+DEF_INDGOCAR_03,Login should accept google accout,login only with through otp,"1.open the app mobile
+2.login with google acc",Major,,
+DEF_INDGOCAR_04,Subscribe car menu location should be selectable,Subscribe car menu location can not selectable,"1.open the app mobile
+2.locate subscribe car
+3.choose location",Major,,
+DEF_INDGOCAR_05,Subscribe car menu start date should be selectable,Subscribe car menu start date can not selectable,"1.open the app mobile
+2.locate subscribe car
+3.select start location",Major,,https://drive.google.com/file/d/10E_sJ1M3ZYeANuGwAfBN-zLeKgPu-oad/view?usp=sharing
+DEF_INDGOCAR_06,Subscribe bike menu location should be selectable,Subscribe bike menu location can not selectable,"1.open the app mobile
+2.locate subscribe bike
+3.choose location",Major,,
+DEF_INDGOCAR_07,Subscribe bike menu start date should be selectable,Subscribe bike menu start date can not selectable,"1.open the app mobile
+2.locate subscribe bike
+3.select start location",Major,,https://drive.google.com/file/d/10Db7NAxHPciU75M5vEuCH_woJ11COsMe/view?usp=sharing
+DEF_INDGOCAR_08,Web site link should be work in FAQ section,Web site link not work in FAQ section,"1.open the app mobile
+2.locate FAQ
+3.select website link",Minor,,
+DEF_INDGOCAR_09,Mobile number link should be work in FAQ section,mobile number link not work in FAQ section,"1.open the app mobile
+2.locate FAQ
+3.select mobile link",Minor,,
+DEF_INDGOCAR_10,Customer support menu name should not accept numbers,Customer support menu name  accept numbers,"1.open the app mobile
+2.locate customer support
+3.enter name",Trivial,,https://drive.google.com/file/d/10AleLZ4fuNlUUXcf4SogdpJuYuO3ydVx/view?usp=drive_link
