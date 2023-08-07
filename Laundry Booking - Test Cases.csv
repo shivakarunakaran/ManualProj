@@ -1,0 +1,830 @@
+Laundry Booking App,,,,,,
+Version No:,,,,Verified By:,,
+Tested By: KARUNAKARAN B,,,,Date:05-May-2023,,
+"Environment Details: Windows10, Brave",,,,Module Name: Splash Screen/Sign up/Login,,
+Splash Screen,,,,,,
+Test ID,Test Description,Test Procedure,Test Data,Expected Result ,Actual Result,Status
+LBA_SS_01,"Check laundry booking app is open when Clicking 
+",1.Open laundry booking app,,"should open laundry booking 
+app ",,
+LBA_SS_02,"Check laundry booking app logo is visible when opening app
+","1.Open laundry booking app
+2.Check logo is visible",,Logo should be visible when laundry booking app open,,
+LBA_SS_03,"Check laundry booking app logo is presented as per srs
+","1.Open laundry booking app
+2.Check logo ",,Logo should be presented as per srs document,,
+LBA_SS_04,"Check laundry booking app logo design and color as per srs
+","1.Open laundry booking app
+2.Check logo design and color",,Logo design and color should be presented as per srs document,,
+LBA_SS_05,"Check laundry booking app logo is static
+","1.Open laundry booking app
+2.Check logo ",,Logo should be static,,
+LBA_SS_06,"Check laundry booking app logo alignment 
+","1.Open laundry booking app
+2.Check logo alignment",,Logo alignment should be center,,
+LBA_SS_07,"Check laundry booking app logo visible time 
+","1.Open laundry booking app
+2.Check logo visible timing ",,Logo visible timing should be only few seconds ,,
+LBA_SS_08,"Check whether after logo visible time app should redirect/open next page
+","1.Open laundry booking app
+2.Check next page open/redirect ",,"After logo visible time app should be redirect/open next page
+",,
+Sign Up,,,,,,
+LBA_SUP_01,Verify after logo the sign up/signin page should be open,"1.Open laundry booking app
+2.Check sign up/signin page is open",,"After logo the sign up/signup
+page should be open",,
+LBA_SUP_02,Verify that the sign up/signin option is presented,"1.Open laundry booking app
+2.Check sign up/signin option is shown",,"The sign up/signin 
+option should be shown",,
+LBA_SUP_03,Verify that if user is new then sign up should open,"1.Open laundry booking app
+2.Check sign up is open",,User is new then sign up should be open,,
+LBA_SUP_04,Verify that the sign up page is open when signup is selected,"1.Open laundry booking app
+2.Select signup option
+3.Check sign up page is open",,The sign up page should be open,,
+LBA_SUP_05,Verify that the sign up page is open with required text field for sign up,"1.Open laundry booking app
+2.Open signup page
+3.Check sign up page text field",,The sign up page should be  open with required text field for sign up,,
+LBA_SUP_06,"check whether the sign up page is present with name,password,mobile no., label and signup button","1.Open laundry booking app
+2.Open signup page
+3.Look sign up page label text and sign up button",,"The sign up page should be  present with name,password,mobile no., label and signup button",,
+LBA_SUP_07,"check whether the sign up page is name, password, mobile no., label and signup button are palced correctly in their respective text field","1.Open laundry booking app
+2.Open signup page
+3.Look sign up page label text and sign up button paced correctly",,"The sign up page is name, password, mobile no., label and signup button should be palced correctly in their respective text field",,
+LBA_SUP_08,check whether the enter  name text field is presented,"1.Open laundry booking app
+2.Open signup page
+3.Look for enter name field",,The enter name text field should be presented,,
+LBA_SUP_09,check whether the enter  name text field is selectable,"1.Open laundry booking app
+2.Open signup page
+3.Select enter name field",,The enter name text field should be selectable,,
+LBA_SUP_10,check whether the enter name text field is editable,"1.Open laundry booking app
+2.Open signup page
+3.Edit enter name field",,The enter name text field should be editable,,
+LBA_SUP_11,check whether the enter  name text field has palceholder enter the name,"1.Open laundry booking app
+2.Open signup page
+3.Look enter name palceholder in text field",,The enter the name  should be palceholder in the name text field,,
+LBA_SUP_12,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SUP_13,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_SUP_14,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SUP_15,"Check whether name field accepts only upper lower case characters 
+","1.open signup page
+2.Enter only compination of upper lower case characters
+",,Name field should be accept compination of upper lower case characters ,,
+LBA_SUP_16,"Check whether name field accepts numbers 
+","1.open signup page
+2.Enter numbers
+",,"Name field should not accepts numbers 
+",,
+LBA_SUP_17,"Check whether name field accepts special charactors
+","1.open signup page
+2.Enter special charactors
+",,"Name field should not accepts special charactors 
+",,
+LBA_SUP_18,check whether the mobile number text field is presented,"1.Open laundry booking app
+2.Open signup page
+3.Look for enter mobile number field",,The enter mobile no text field should be presented,,
+LBA_SUP_19,check whether the enter  mobile no text field is selectable,"1.Open laundry booking app
+2.Open signup page
+3.Select enter mobile no field",,The enter mobile no text field should be selectable,,
+LBA_SUP_20,check whether the enter  mobile no text field is editable,"1.Open laundry booking app
+2.Open signup page
+3.Edit enter mobile no field",,The enter mobile no text field should be editable,,
+LBA_SUP_21,check whether the enter  mobile no text field has palceholder enter the mobile no,"1.Open laundry booking app
+2.Open signup page
+3.Look enter mobile no palceholder in text field",,The enter mobile no should be palceholder in the mobile no text field,,
+LBA_SUP_22,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SUP_23,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_SUP_24,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SUP_25,Check whether mobile number field shows country code ,"1.Open signup page 
+2.Look for country code in mobile number field ",,Country code should show in Mobile number field ,,
+LBA_SUP_26,Check whether country code selection is work,"1.Open signup page 
+2.Select country code in drop down ",,country code should selectable in drop down option,,
+LBA_SUP_27,Check whether country code selection show correctly,"1.Open signup page 
+2.Select country code in drop down ",,country code shoould show correct country code,,
+LBA_SUP_28,Check whether enter a   mobile number in valid format ,"1.Open signup page 
+2.Enter mobile number",,Should enter mobile number in valid  format,,
+LBA_SUP_29,Check whether mobile number  field accept alphapets,"1.Open signup page 
+2.Enter alphapets in mobile number field",,mobile number  field should not accept alphapets,,
+LBA_SUP_30,Check whether mobile number  field accept special characters,"1.Open signup page 
+2.Enter special characters in mobile number field",,mobile number  field should not accept special characters,,
+LBA_SUP_31,Check whether copy paste work mobile number field  ,"1.Open signup page 
+2.Enter copy paste in mobile number field",,mobile number  field should  accept copy paste,,
+LBA_SUP_32,Check whether mobile number field accept 10 digit mobile numbers,"1.Open signup page 
+2.Enter 10 digit mobile number in field",,mobile number  field should  accept 10 digit number,,
+LBA_SUP_33,Verify by entering the less number than the actual mobile number,"1.Open signup page 
+2.Enter less number than actual mobile number field",,mobile number  field should not accept less number than actual number,,
+LBA_SUP_34,Verify by entering the more number than the actual mobile number,"1.Open signup page 
+2.Enter more number than actual mobile number field",,mobile number  field should not accept more number than actual number,,
+LBA_SUP_35,Verify field accepts the space  between the mobile number ,"1.Open signup page 
+2.Enter mobile number with space mobile field",,Should not accepts the space  between the mobile number ,,
+LBA_SUP_36,Verify field accepts the space between the mobile number or not according to the format  requirements.,"1.Open signup page 
+2.Enter mobile number with space mobile field ",,Should accepts the space  between the mobile number for format requirements,,
+LBA_SUP_37,Verify an error message shown for the blank input in the Mobile Number Field,"1.Open signup page 
+2.Left mobile number field empty",,Should not accepts the empty in mobile number field,,
+LBA_SUP_38,Verify correct mobile number is saved in the database or not by click on the Save or Next button,"1.Open signup page 
+2.Enter valid mobile number",,Correct mobile number is should  saved in the database when it save ,,
+LBA_SUP_39,Check whether  error messages are show if less number enter than actual,"1.Open signup page 
+2.Enter less number than actual mobile number",,error messages should  show if less number enter than actual,,
+LBA_SUP_40,Check whether  error messages are show if more number enter than actual,"1.Open signup page 
+2.Enter more number than actual mobile number",,Error messages should  show  enter more number than actual,,
+LBA_SUP_41,check whether the password text field is presented,"1.Open laundry booking app
+2.Open signup page
+3.Look for enter password field",,The enter password text field should be presented,,
+LBA_SUP_42,check whether the enter  password text field is selectable,"1.Open laundry booking app
+2.Open signup page
+3.Select enter password field",,The enter password text field should be selectable,,
+LBA_SUP_43,check whether the enter  password text field is editable,"1.Open laundry booking app
+2.Open signup page
+3.Edit enter password field",,The enter password text field should be editable,,
+LBA_SUP_44,check whether the enter  password text field has palceholder enter the password,"1.Open laundry booking app
+2.Open signup page
+3.Look enter password palceholder in text field",,The enter password should be palceholder in the password text field,,
+LBA_SUP_45,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SUP_46,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should not accepts copy paste charactors
+",,
+LBA_SUP_47,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SUP_48,check whether password  contain minimum 8 characters,"1.Open signup page
+2.Enter password minimum 8 characters",,password field should contain minimum 8 characters,,
+LBA_SUP_49,check whether password  contain minimum 8 and maximum 16 characters,"1.Open signup page
+2.Enter password minimum 8  and maximum 16 characters",,password field should contain minimum 8 and maximun 16 characters,,
+LBA_SUP_50,check whether password  contain morethan 16 characters,"1.Open signup page
+2.Enter password morethan 16 characters",,password field should not accept morethan 16 characters,,
+LBA_SUP_51,check whether password  contain minimum 8 characters,"1.Open signup page
+2.Enter password lessthan 8 characters",,password field should not accept lessthan 8 characters,,
+LBA_SUP_52,check whether password blank space only,"1.Open signup page
+2.Enter password in blank space",,password field should not accept blank space,,
+LBA_SUP_53,check whether password visible or encripted,"1.Open signup page
+2.Enter password ",,password field should not visible untill select eye icon,,
+LBA_SUP_54,check whether password visible or encripted,"1.Open signup page
+2.Enter password 
+3.select eye icon or password visible button",,password field should when visible or eye icon selected ,,
+LBA_SUP_55,check whether password is same as user name,"1.Open signup page
+2.Enter password 
+",,password should not same as username,,
+LBA_SUP_56,show error message when password is same as user name,"1.Open signup page
+2.Enter password as user name
+",,error msg should show when password is same as username,,
+LBA_SUP_57,Check based on the inputted password length when text is less than 8 should display the progress bar Weak,"1.Open signup page
+2.Enter password lessthan 8 characters
+
+",,Should display weak prograss bar for lessthan 8 character,,
+LBA_SUP_58,Check based on the inputted password length when text is more than 8 and without combination should display the progress bar Medium,"1.Open signup page
+2.Enter password more than 8 characters without special, numeric characters
+
+",,"Should display medium prograss bar when password more than 8 characters without special, numeric characters",,
+LBA_SUP_59,"Check based on the inputted password when text is more than 8 and atleast one upper, lower case, special, numeric characters should display the progress bar strong","1.Open signup page
+2.Enter password more than 8 characters with upper and lower case, special, numeric characters
+
+",,"Should display strong prograss bar when password more than 8 characters include special, numeric,lower and upper case characters",,
+LBA_SUP_60,"check whether password field contain 8-16 character with upper, lower case letters, special, numbers ","1.Open signup page
+2.Enter upper and lower case letters, special characters, numeric",,"password field should contain 8-16 cahracters include alteast one upper and lower case letters and special characters and numbers
+",,
+LBA_SUP_61,check whether the confirm password text field is presented,"1.Open laundry booking app
+2.Open signup page
+3.Look for enter confirm password field",,The enter confirm password text field should be presented,,
+LBA_SUP_62,check whether the enter  confirm password text field is selectable,"1.Open laundry booking app
+2.Open signup page
+3.Select enter confirm password field",,The enter confirm password text field should be selectable,,
+LBA_SUP_63,check whether the enter  confirm password text field is editable,"1.Open laundry booking app
+2.Open signup page
+3.Edit enter confirm password field",,The enter confirm password text field should be editable,,
+LBA_SUP_64,check whether the enter  confirm password text field has palceholder confirm password,"1.Open laundry booking app
+2.Open signup page
+3.Look confirm password palceholder in text field",,The confirm password should be palceholder in  confirm password text field,,
+LBA_SUP_65,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SUP_66,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should not accepts copy paste charactors
+",,
+LBA_SUP_67,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SUP_68,check whether password and confirm password are same ,"1.Open signup page
+2.Enter password 
+3.Enter confirm password
+",,password and confirm password should be same,,
+LBA_SUP_69,check whether password visible or encripted,"1.Open signup page
+2.Enter password ",,password field should not visible untill select eye icon,,
+LBA_SUP_70,check whether password visible or encripted,"1.Open signup page
+2.Enter password 
+3.select eye icon or password visible button",,password field should visible when eye icon selected ,,
+LBA_SUP_71,check whether password and confirm password are not same then error msg shown,"1.Open signup page
+2.Enter password 
+3.Enter confirm password
+",,password and confirm password is not same then error msg should be shown,,
+LBA_SUP_72,Check whether sign up button presented,"1.Open signup page
+2.Look for sign up button
+",,Sign up button should be presented,,
+LBA_SUP_73,Check whether sign up button text are clearly visible,"1.Open signup page
+2.Look for sign up button text
+",,Sign up button text should be clearly visible,,
+LBA_SUP_74,Check whether sign up button text selectable/click,"1.Open signup page
+2.Select/click sign up button 
+",,Sign up button should be selectable/clickable,,
+LBA_SUP_75,"Check whether sign up button redirects/works only after enter valid name, mobile no., password correctly","1.Open signup page
+2.Enter valid name, mobile no., password
+3.Select/click sign up button 
+",,"Sign up button redirects/works only after enter valid name, mobile no., password correctly",,
+LBA_SUP_76,"Check whether only after enter valid name, mobile no., password correctly sign up button redirects to OTP page","1.Open signup page
+2.Enter valid name, mobile no., password
+3.Select/click sign up button 
+4.Look for OTP verification page
+",,"sign up button should be redirects to OTP page only after enter valid name, mobile no., password correctly ",,
+LBA_SUP_77,Check whether OTP page contain enter otp text fied,"1.Open signup page
+2.Look for OTP text field
+",,OTP page should contain enter otp text fied,,
+LBA_SUP_78,Check whether OTP send to entered mobile number,"1.Open signup page
+2.Wait for OTP 
+",,OTP should be send to entered mobile number,,
+LBA_SUP_79,Check whether entered OTP is correct or not ,"1.Open signup page
+2.Enter for OTP 
+",,Entered OTP should be correct ,,
+LBA_SUP_80,Check whether entered OTP is wrong then display error msg  ,"1.Open signup page
+2.Enter for OTP 
+",,Should display error msg when entered OTP is wrong,,
+LBA_SUP_81,Check whether OTP valid duration is not more than 3 min,"1.Open signup page
+2.Enter for OTP 
+",,OTP valid duration should not more than 3 min,,
+LBA_SUP_82,Check whether resend OTP is send when duration is completed,"1.Open signup page
+2.Look for new OTP 
+",,resend OTP should be send when duration is completed,,
+LBA_SUP_83,Check whether valid OTP is enter then redirects to next page,"1.Open signup page
+2.Enter for OTP 
+",,should redirects to next page when valid OTP is enter ,,
+Sign In,,,,,,
+LBA_SIN_01,Verify that if user is already register/signup then sign in option should open,"1.Open laundry booking app
+2.Select sign in option",,User is already register/signup then sign in option should open,,
+LBA_SIN_02,Verify that the signin page is open with required text field for signin,"1.Open laundry booking app
+2.Open signin page
+3.Check signin page text field",,The signin page should be  open with required text field for signin,,
+LBA_SIN_03,"check whether the signin page is present with password,mobile no., label and signin button","1.Open laundry booking app
+2.Open signin page
+3.Look signin page label text and signin button",,"The signin page should be  present with password,mobile no., label and signin button",,
+LBA_SIN_04,"check whether the signin page password, mobile no., label and signin button are palced correctly in their respective text field","1.Open laundry booking app
+2.Open signin page
+3.Look signin page label text and signin button placed correctly",,"The signin page is  password, mobile no., label and signin button should be palced correctly in their respective text field",,
+LBA_SIN_05,check whether the mobile number text field is presented,"1.Open laundry booking app
+2.Open signin page
+3.Look for enter mobile number field",,The enter mobile no. text field should be presented,,
+LBA_SIN_06,check whether the enter  mobile no. text field is selectable,"1.Open laundry booking app
+2.Open signin page
+3.Select enter mobile no field",,The enter mobile no. text field should be selectable,,
+LBA_SIN_07,check whether the enter  mobile no text field is editable,"1.Open laundry booking app
+2.Open signin page
+3.Edit enter mobile no field",,The enter mobile no text field should be editable,,
+LBA_SIN_08,check whether the enter  mobile no text field has palceholder enter the mobile no,"1.Open laundry booking app
+2.Open signin page
+3.Look enter mobile no palceholder in text field",,The enter mobile no should be palceholder in the mobile no text field,,
+LBA_SIN_09,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SIN_10,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should not accepts copy paste charactors
+",,
+LBA_SIN_11,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SIN_12,Check whether enter  mobile number in valid format ,"1.Open signin page 
+2.Enter mobile number",,Should enter mobile number in valid  format,,
+LBA_SIN_13,Check whether mobile number  field accept alphapets,"1.Open signin page 
+2.Enter alphapets in mobile number field",,mobile number  field should not accept alphapets,,
+LBA_SIN_14,Check whether mobile number  field accept special characters,"1.Open signin page 
+2.Enter special characters in mobile number field",,mobile number  field should not accept special characters,,
+LBA_SIN_15,Check whether copy paste work mobile number field  ,"1.Open signin page 
+2.Enter copy paste in mobile number field",,mobile number  field should  accept copy paste,,
+LBA_SIN_16,Check whether mobile number field accept 10 digit mobile numbers,"1.Open signin page 
+2.Enter 10 digit mobile number in field",,mobile number  field should  accept 10 digit number,,
+LBA_SIN_17,Verify by entering the less number than the actual mobile number,"1.Open signin page 
+2.Enter less number than actual mobile number field",,mobile number  field should not accept less number than actual number,,
+LBA_SIN_18,Verify by entering the more number than the actual mobile number,"1.Open signin page 
+2.Enter more number than actual mobile number field",,mobile number  field should not accept more number than actual number,,
+LBA_SIN_19,Verify field accepts the space  between the mobile number ,"1.Open signin page 
+2.Enter mobile number with space mobile field",,Should not accepts the space  between the mobile number ,,
+LBA_SIN_20,Verify field accepts the space between the mobile number or not according to the format  requirements.,"1.Open signin page 
+2.Enter mobile number with space mobile field ",,Should accepts the space  between the mobile number for format requirements,,
+LBA_SIN_21,Verify an error message shown for the blank input in the Mobile Number Field,"1.Open signin page 
+2.Left mobile number field empty",,Should not accepts the empty in mobile number field,,
+LBA_SIN_22,Verify whether entered mobile number is saved in the database or not ,"1.Open signin page 
+2.Enter valid mobile number",,Correct mobile number is should  saved in the database when it save ,,
+LBA_SIN_23,Verify if entered mobile number is not register then show signup msg,"1.Open signin page 
+2.Enter mobile number",,Entered mobile number is should be register ,,
+LBA_SIN_24,Verify if entered mobile number field should accept already register mobile numbers only,"1.Open signin page 
+2.Enter mobile number",,Entered mobile number field should only accept already register mobile numbers ,,
+LBA_SIN_25,check whether the password text field is presented,"1.Open laundry booking app
+2.Open signin page
+3.Look for enter password field",,The enter password text field should be presented,,
+LBA_SIN_26,check whether the enter  password text field is selectable,"1.Open laundry booking app
+2.Open signin page
+3.Select enter password field",,The enter password text field should be selectable,,
+LBA_SIN_27,check whether the enter  password text field is editable,"1.Open laundry booking app
+2.Open signin page
+3.Edit enter password field",,The enter password text field should be editable,,
+LBA_SIN_28,check whether the enter  password text field has palceholder enter the password,"1.Open laundry booking app
+2.Open signin page
+3.Look enter password palceholder in text field",,The enter password should be palceholder in the password text field,,
+LBA_SIN_29,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_SIN_30,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should not accepts copy paste charactors
+",,
+LBA_SIN_31,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_SIN_32,check whether the enter  password is match with already register/signup  mobile number,"1.Open signin page 
+2.Enter mobile number
+3.Enter password",,The enter password should be match with enter mobile already registerd/signup account,,
+LBA_SIN_33,check whether user enter  wrong password then incorrect password msg should display,"1.Open signin page 
+2.Enter mobile number
+3.Enter password",,When user enter  wrong password then it should be display incorrect password msg ,,
+LBA_SIN_34,check whether password visible or encripted,"1.Open signin page
+2.Enter password ",,password field should not visible untill select eye icon,,
+LBA_SIN_35,check whether password visible or encripted,"1.Open signin page
+2.Enter password 
+3.select eye icon or password visible button",,password field should visible when eye icon selected ,,
+LBA_SIN_36,check whether forgot  password link is presented,"1.Open signin page 
+2.Look for forgot password link",,Forgot  password link should be presented,,
+LBA_SIN_37,check whether forgot  password link is selectable/clickable,"1.Open signin page 
+2.Select/click forgot password link",,Forgot  password link should be selectable/clickable,,
+LBA_SIN_38,verify that when user click  forgot  password link then open/redirect to forgot password page,"1.Open signin page 
+2.Select/click forgot password link",,When user click  forgot  password link then Should be open/redirect to forgot password page,,
+LBA_SIN_39,verify that forgot  password page is open with enter OTP text field,"1.Open signin page 
+2.Select/click forgot password link",,Forgot  password page should open with enter OTP text field,,
+LBA_SIN_40,verify that enter OTP text field is editable/enter,"1.Open signin page 
+2.Edit/Enter otp ",,Enter OTP text field should be editable/enter,,
+LBA_SIN_41,verify that when user click/select forgot  password link the OTP should send registerd mobile number ,"1.Open signin page 
+2.Select/click forgot password link",,When user click/select forgot  password link the OTP should be send to registerd mobile number ,,
+LBA_SIN_42,verify that enter OTP valid or not,"1.Open signin page 
+2.Enter otp ",,Enter OTP should be valid,,
+LBA_SIN_43,verify that enter OTP valid then redirect/signin to web page/app,"1.Open signin page 
+2.Enter otp ",,nter OTP valid then it should be redirect/signin to web page/app,,
+LBA_SIN_44,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_SIN_45,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+User Profile,,,,,,
+LBA_UP_01,check whether profile page open after successfully signin,"1.Open user profie in app
+2.Look for profile page ",,Profile page should open after signin,,
+LBA_UP_02,check whether profile page visible clearly,"1.Open user profie in app
+2.Look for profile page ",,Profile page should be visible clearly,,
+LBA_UP_03,check whether profile page text fields presented,"1.Open user profie in app
+2.Look for text field in profile page ",,Profile page text fields should be presented,,
+LBA_UP_04,check whether profile page text fields labels presented,"1.Open user profie in app
+2.Look for text field labels profile page ",,Profile page text fields labels should be presented,,
+LBA_UP_05,check whether enter name text field presented in profile page ,"1.Open user profie in app
+2.Look for enter name text field profile page ",,Enter name text field should presented in profile page ,,
+LBA_UP_06,check whether enter name text field is selectable/edit,"1.Open user profie in app
+2.Select/edit enter name text field ",,Enter name text field should selectable/edit,,
+LBA_UP_07,check whether enter name text field should have placeholder enter name,"1.Open user profie in app
+2.Look for enter name placeholder",,Enter name text field should have placeholder enter name,,
+LBA_UP_08,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_09,"Check whether name field accepts only upper lower case characters 
+","1.Open user profie in app
+2.Enter only compination of upper lower case characters
+",,Name field should be accept compination of upper lower case characters ,,
+LBA_UP_10,"Check whether name field accepts numbers 
+","1.Open user profie in app
+2.Enter numbers
+",,"Name field should not accepts numbers 
+",,
+LBA_UP_11,"Check whether name field accepts special charactors
+","1.Open user profie in app
+2.Enter special charactors
+",,"Name field should not accepts special charactors 
+",,
+LBA_UP_12,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_13,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_UP_14,check whether enter city text field presented in profile page ,"1.Open user profie in app
+2.Look for enter city text field profile page ",,Enter city text field should presented in profile page ,,
+LBA_UP_15,check whether enter city text field is selectable/edit,"1.Open user profie in app
+2.Select/edit enter name text field ",,Enter city text field should selectable/edit,,
+LBA_UP_16,check whether enter city text field should have placeholder enter city,"1.Open user profie in app
+2.Look for enter city placeholder",,Enter city text field should have placeholder enter city,,
+LBA_UP_17,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_18,"Check whether enter city field accepts only upper lower case characters 
+","1.Open user profie in app
+2.Enter enter city with only compination of upper lower case characters
+",,enter city field should be accept compination of upper lower case characters ,,
+LBA_UP_19,"Check whether enter city field accepts numbers 
+","1.Open user profie in app
+2.Enter enter cityname in numbers
+",,"enter city field should not accepts numbers 
+",,
+LBA_UP_20,"Check whether enter city field accepts special charactors
+","1.Open user profie in app
+2.Enter enter city in special charactors
+",,"enter city field should not accepts special charactors 
+",,
+LBA_UP_21,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_22,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_UP_23,check whether enter location text field presented in profile page ,"1.Open user profie in app
+2.Look for enter location text field profile page ",,Enter location text field should presented in profile page ,,
+LBA_UP_24,check whether enter location text field is selectable/edit,"1.Open user profie in app
+2.Select/edit enter location text field ",,Enter location text field should selectable/edit,,
+LBA_UP_25,check whether enter location text field should have placeholder enter city,"1.Open user profie in app
+2.Look for enter location placeholder",,Enter location text field should have placeholder enter location,,
+LBA_UP_26,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_27,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_28,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_UP_29,"Check whether enter location field accepts only upper lower case characters 
+","1.Open user profie in app
+2.Enter enter location with only compination of upper lower case characters
+",,enter location field should be accept compination of upper lower case characters ,,
+LBA_UP_30,"Check whether enter location field accepts numbers 
+","1.Open user profie in app
+2.Enter enter location in numbers
+",,"enter location field should not accepts numbers 
+",,
+LBA_UP_31,"Check whether enter location field accepts special charactors
+","1.Open user profie in app
+2.Enter enter location in special charactors
+",,"enter location field should not accepts special charactors 
+",,
+LBA_UP_32,check whether upload profile picture text field presented in profile page ,"1.Open user profie in app
+2.Look for enter location text field profile page ",,Enter location text field should presented in profile page ,,
+LBA_UP_33,Verify that upload image field design is as per specification or not,"1.Open user profie in app
+2.Look for image field",,Upload image field design Should same as per specification ,,
+LBA_UP_32,check whether upload image  field should have placeholder upload image,"1.Open user profie in app
+2.Look for upload image placeholder",,upload image field should have placeholder upload image,,
+LBA_UP_33,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_34,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_35,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_UP_36,Verify that the upload image field icon is displayed properly or not,"1.Open user profie in app
+2.Look for upload image field 
+",,upload image field icon should displayed properly,,
+LBA_UP_37,Verify that the upload button is properly aligned or not,"1.Open user profie in app
+2.Look for upload image text alignement 
+",,The upload button should properly aligned,,
+LBA_UP_38,Verify that text should be displayed properly or not,"1.Open user profie in app
+2.Look for upload image text  
+",,Text should be displayed properly ,,
+LBA_UP_39,Check Upload Image button is clickable or not,"1.Open user profie in app
+2.Click upload image button  
+",,Upload Image button should be clickable,,
+LBA_UP_40,"Verify that when a user clicks on the upload button or link, windows should be open to select an image","1.Open user profie in app
+2.Click upload image button  
+3.Wait for windows open
+",,"When a user clicks on the upload button or link, windows should be open to select an image",,
+LBA_UP_41,Check if the warning message is displaying or not with the click of the upload button without selecting any image,"1.Open user profie in app
+2.Click upload image button  
+3.Click upload button without select image
+",,The warning message should be displaying when the upload button without selecting any image,,
+LBA_UP_42,Check if there is any restriction on image file size to upload,"1.Open user profie in app
+2.Click upload image button  
+3.Check image size
+",,There should be any restriction on image file size to upload,,
+LBA_UP_43,Verify that the user is able to upload multiple images at once or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select multiple image 
+",,The user is not able to upload multiple images at once ,,
+LBA_UP_44,Validate maximum upload image size for upload image functionality,"1.Open user profie in app
+2.Click upload image button  
+3.Check maximum image size
+",,Image size should not upload image maximum size for upload image functionality,,
+LBA_UP_45,Validate minimum upload image size for upload image functionality,"1.Open user profie in app
+2.Click upload image button  
+3.Check minimum image size
+",,Image size should not upload minimum image size for upload image functionality,,
+LBA_UP_46,Check if the images are uploading and whose names have special characters or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select image with name special charactors 
+",,The images should accept whose names have special characters ,,
+LBA_UP_47,Check if the images are uploading and whose names have space characters or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select image with name  space
+",,The images should not accept whose names have space ,,
+LBA_UP_48,Check if the images are uploading and whose names have space between two words or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select image with name  space
+",,The images should accept whose names have space between words,,
+LBA_UP_49,Check if the user can upload an image where the name is duplicated,"1.Open user profie in app
+2.Click upload image button  
+3.Select image with duplicate name  
+",,The user can upload an image when the name is duplicated,,
+LBA_UP_50,Check during uploading whether any progress bar is displayed or not if required,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+",,Uploading image should indicate any progress bar is displayed if required,,
+LBA_UP_51,Check whether the upload button is disabled when a file upload is already in progress,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+",,The upload button should disabled when a file upload is already in progress,,
+LBA_UP_52,Check after the upload if the user can see the image or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+4.Look for upload image
+",,After the upload user can see the image ,,
+LBA_UP_53,Check whether the user is getting the warning message on clicking the upload button post-upload,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+4.Select upload image button
+",,The user should getting the warning message on clicking the upload button post-upload,,
+LBA_UP_54,Check whether uploading by drag and drop image functionality is working or not,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and drag and drop
+",,Uploading by drag and drop image functionality should work,,
+LBA_UP_55,Verify that images should not be uploaded on the website when using drag and drop functionality,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and drag and drop
+",,Images should not be uploaded on the website when using drag and drop functionality,,
+LBA_UP_56,Check whether the image is uploading if the user clicks the cancel button while uploading the file,"1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+4.Click cancel button while uploading
+",,The image should not upload image when the user clicks the cancel button while uploading the file,,
+LBA_UP_57,"Check if proper upload guidelines are mentioned for the pic upload (ex: size, resolution, naming what is inappropriate, etc)","1.Open user profie in app
+2.Click upload image button  
+3.Select image and upload
+
+",,"Image should be upload properly as per guidelines for  the pic upload (ex: size, resolution, naming what is inappropriate, etc)",,
+LBA_UP_58,"Check the allowed image file extensions like .jpg, .jpeg, .bmp, .gif, .png, .svg, and .ico for uploading images","1.Open user profie in app
+2.Click upload image button  
+3.Select image file extension of .jpg .jpeg .bmp .gif .png .svg .ico and upload
+
+",,"Should allowed image file extensions like .jpg, .jpeg, .bmp, .gif, .png, .svg, and .ico for uploading images",,
+LBA_UP_59,"Check user is getting any warning messages on uploading non-image files like extension .doc, .docx, .xls, .xlsx, .pdf, .rar, .zip, etc.","1.Open user profie in app
+2.Click upload image button  
+3.Select image file extension of .doc, .docx, .xls, .xlsx, .pdf, .rar, .zip and upload
+
+",,"Warning messages should be display when uploading non-image files like extension .doc, .docx, .xls, .xlsx, .pdf, .rar, .zip, etc.",,
+LBA_UP_60,Check on the click upload button if the file selection dialogue shows only supported files listed,"1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+
+",,The file selection dialogue should be shows only supported files listed,,
+LBA_UP_61,Check the alignment of the photo after uploading,"1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+4.Look for image alignment
+
+",,The image should alignment properly after uploading,,
+LBA_UP_62,"Check whether tools like crop, edit, beautify, etc., options display after uploading the image","1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+4.Look for image edit crop etc. tools
+
+",,"Tools like crop, edit, beautify, etc., options should display after uploading the image",,
+LBA_UP_63,Check by uploading images of specific width and height if the specified image is accepted or otherwise rejected,"1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+
+
+",,Uploading images should be accept specific width and height otherwise rejected,,
+LBA_UP_64,Check the image quality after upload. The quality of the image should not be changed after uploading the image,"1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+4.Check image quality
+
+
+",,The quality of the image should not be changed after uploading the image,,
+LBA_UP_65,Check on keep uploading pictures and see if the previous picture gets replaced,"1.Open user profie in app
+2.Click upload image button  
+3.Select image for upload
+
+
+
+",,Keep uploading pictures and the previous picture should be replaced,,
+LBA_UP_66,Check if there is Profile Picture that exists. Then deleting should either open up a Confirmation Dialog Box or delete the Picture directly,"1.Open user profie in app
+2.Look for already upload image 
+3.Select image for upload
+
+
+
+",,Check if there is Profile Picture that exists. Then deleting should open up a Confirmation Dialog Box ,,
+LBA_UP_67,"If the User selects YES, delete, then the Picture should be deleted and replaced with a blank/default Profile Picture icon","1.Open user profie in app
+2.Look for already upload image 
+3.Select delete/yes 
+
+
+
+",,"User selects YES, delete, then the Picture should be deleted and replaced with a blank/default Profile Picture icon",,
+LBA_UP_68,"If the User selects NO, don’t delete, then the Picture should remain as it is","1.Open user profie in app
+2.Look for already upload image 
+3.Select No/Don't delete 
+
+
+
+",,"User selects NO, don’t delete, then the Picture should remain as it is",,
+LBA_UP_69,check whether enter address text field presented in profile page ,"1.Open user profie in app
+2.Look for enter address text field profile page ",,Enter address text field should presented in profile page ,,
+LBA_UP_70,check whether enter address text field is selectable/edit,"1.Open user profie in app
+2.Select/edit enter address text field ",,Enter address text field should selectable/edit,,
+LBA_UP_71,check whether enter address text field should have placeholder enter address,"1.Open user profie in app
+2.Look for enter address placeholder",,Enter address text field should have placeholder enter address,,
+LBA_UP_72,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_73,"Check whether address field accepts  upper lower case characters 
+","1.Open user profie in app
+2.Enter only compination of upper lower case characters
+",,address field should be accept compination of upper lower case characters ,,
+LBA_UP_74,"Check whether address field accepts numbers 
+","1.Open user profie in app
+2.Enter numbers
+",,"address field should  accepts numbers 
+",,
+LBA_UP_75,"Check whether address field accepts special charactors
+","1.Open user profie in app
+2.Enter special charactors
+",,"address field should  accepts special charactors 
+",,
+LBA_UP_76,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_77,"Check if the text field is mandatory field then red ""*"" should be displayed
+","1.Open user profie in app
+2.Look for mandatory field mark red ""*""
+",,"The text field is mandatory field then red ""*"" should be displayed
+",,
+LBA_UP_78,"Check whether address field accepts maximum numbers charactors
+","1.Open user profie in app
+2.Enter maximum charactors
+",,"Address field should  accepts maximum number of charactors as specified in SRS
+",,
+LBA_UP_79,Check if the submit button is present on the page as per the design on the web page,"1.Open user profie in app
+2.Look for submit button
+",,The submit button should be present on the page as per the design on the web page,,
+LBA_UP_80,Check the color of the button is the same as per the design,"1.Open user profie in app
+2.Look for submit button
+",,The color of the button should be same as per the design,,
+LBA_UP_81,Check the width and height of the button as per the SRS document,"1.Open user profie in app
+2.Look for submit button
+",,The width and height of the button should be present as per the SRS document,,
+LBA_UP_82,Check if the border radius is applied on the button or not,"1.Open user profie in app
+2.Look for submit button
+",,The border radius should be  applied on the button,,
+LBA_UP_83,Check whether the width and height of the buttons used are the same as the design,"1.Open user profie in app
+2.Look for submit button
+",,The width and height of the buttons should be same as the design,,
+LBA_UP_84,Check if the button is enabled/clickable or not by clicking on the button,"1.Open user profie in app
+2.Select/click submit button
+",,The button should be enabled/clickable,,
+LBA_UP_85,Check the button text related to the tool’s functionality on the web page,"1.Open user profie in app
+2.Look for submit button
+",,The button text should be related to the tool’s functionality on the web page,,
+LBA_UP_86,Check if the color changed on the mouse hover or not,"1.Open user profie in app
+2.Look for submit button
+3.Move curson to button
+",,The color should changed on the mouse hover,,
+LBA_UP_87,Check if the color change on the mouse hover is the same as the design,"1.Open user profie in app
+2.Look for submit button
+3.Move curson to button
+",,The color should change on the mouse hover is the same as the design,,
+LBA_UP_88,"Check that the whole button should be clickable, not only the text","1.Open user profie in app
+2.Select/click submit button
+
+",,The whole button should be clickable not only the text,,
+LBA_UP_89,"Verify that after clicking on the submit button, the user should be redirected/save the data to the destination page or not","1.Open user profie in app
+2.Select/click submit button
+
+",,After clicking on the submit button should be redirected/save the data to the destination page,,
+LBA_UP_90,Verify that if the user clicks on submit button without filling required fields then validation error message should be displayed on screen,"1.Open user profie in app
+2.Select/click submit button without filling data
+
+",,When the user clicks on submit button without filling required fields then validation error message should be displayed on screen,,
+LBA_UP_91,Verify that the user is able to submit with valid data or not,"1.Open user profie in app
+2.Select/click submit button  filling valid data
+
+",,The user should able to submit with valid data ,,
+LBA_UP_92,Verify that the user should not be able to submit with invalid data,"1.Open user profie in app
+2.Select/click submit button  filling invalid data
+
+",,The user should not able to submit with invalid data ,,
+LBA_UP_93,Check if the values added by the user clicking the submit button are saved correctly in the database,"1.Open user profie in app
+2.Select/click submit button  filling valid data
+
+",,The values added by the user clicking the submit button  should be saved correctly in the database,,
+LBA_UP_94,"Check if the user should not be allowed to click on the submit form/page button multiple times, intentionally or unintentionally","1.Open user profie in app
+2.Select/click submit button  multiple time
+
+",,"The user should not be allowed to click on the submit form/page button multiple times, intentionally or unintentionally",,
+LBA_UP_95,Check whether or not the desired action is performed by clicking on the button,"1.Open user profie in app
+2.Select/click submit button  
+
+",,The desired action sgould be  performed by clicking on the button,,
+LBA_UP_96,Check if the spelling of the button text is correct or not,"1.Open user profie in app
+2.Check spelling of submit button  
+
+",,The spelling of the button text should present correct,,
+LBA_UP_97,check whether language text field presented in profile page ,"1.Open user profie in app
+2.Look for language text field profile page ",,language text field should presented in profile page ,,
+LBA_UP_98,check whether languagetext field is selectable/edit,"1.Open user profie in app
+2.Select/edit language text field ",,language text field should selectable/edit,,
+LBA_UP_99,check whether language text field should have placeholder enter language,"1.Open user profie in app
+2.Look for enter language placeholder",,language text field should have placeholder enter language,,
+LBA_UP_100,check whether placeholder text is clear and cursor shown on click,"1.Open user profie in app
+2.Look for placeholder text
+3.Select text field",,Placeholder text should be clear and cursor shown on click,,
+LBA_UP_101,"Check whether language field accepts only upper lower case characters 
+","1.Open user profie in app
+2.Enter only compination of upper lower case characters
+",,language field should be accept compination of upper lower case characters ,,
+LBA_UP_102,"Check whether language field accepts numbers 
+","1.Open user profie in app
+2.Enter numbers
+",,"language field should not accepts numbers 
+",,
+LBA_UP_103,"Check whether language field accepts special charactors
+","1.Open user profie in app
+2.Enter special charactors
+",,"language field should not accepts special charactors 
+",,
+LBA_UP_104,"Check whether text field accepts copy paste charactors
+","1.Open user profie in app
+2.Copy paste charactors
+",,"Text field should accepts copy paste charactors
+",,
+LBA_UP_105,"Check if the text field is optioanal  then optional  should be displayed
+","1.Open user profie in app
+2.Look for optional field mark 
+",,"The text field is optional field then optional should be displayed
+",,
