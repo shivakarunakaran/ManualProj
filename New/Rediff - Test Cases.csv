@@ -1,0 +1,450 @@
+REDIFF MAIL,,,,,,
+Version No:,,,,Verified By:,,
+Tested By: KARUNAKARAN B,,,,Date:22-April-2023,,
+"Environment Details: Windows10, Brave",,,,Module Name: Registration Page,,
+Test ID,Test Description,Test Procedure,Test Data,Expected Result ,Actual Result,Status
+RDF_RP_01,"Check Registration page is open when Clicking Create Account Link
+","1.Open Rediff Page
+2.Create account link",www.rediff.com,should open registration page ,registration page open successful,Pass
+RDF_RP_02,"Check whether rediff logo placed properly
+","1.open Registraion page
+2.look for logo",,"should logo placed in registration page
+","logo placed in registration page successful
+",pass
+RDF_RP_03,"Home button work or redirect to home page when its click
+",1.click home button,,"Home page should open or redirect when its click
+ ","Home page successfully open or redirect when its click
+ ",pass
+RDF_RP_04,"Check whether fullname field accepts only charactors
+","1.open registraion page
+2.Enter characters, numbers, special characters in name field
+","shiva,shiva123,shiva@","Fullname field should not accept  characters, numbers, special characters, more than 2 space","Fullname field not accept characters, numbers, special characters, more than 2 space",pass
+RDF_RP_05,"Check whether fullname field accepts only charactors
+","1.open registraion page
+2.Enter only characters
+",Shiva ,Fullname field should accept characters only,Fullname field accept characters only,pass
+RDF_RP_06,check whether password  contain minimum 8 characters,"1.Open registration page
+2.Enter password minimum 8 characters",shiva123,password field should contain minimum 8 characters,password field contain minimum 8 characters,pass
+RDF_RP_07,check whether password  contain minimum 8 and maximum 100 characters,"1.Open registration page
+2.Enter password minimum 8  and maximum 100 characters",shiva123 upto 100,password field should contain minimum 8 and maximun 100 characters,password field succesfully accept min 8 and max 100 characters,pass
+RDF_RP_08,check whether password  contain morethan 100 characters,"1.Open registration page
+2.Enter password morethan 100 characters",shiva123……..,password field should not accept morethan 100 characters,password field  not accept morethan 100 characters,pass
+RDF_RP_09,check whether password  contain minimum 8 characters,"1.Open registration page
+2.Enter password lessthan 8 characters",shiva1,password field should not accept lessthan 8 characters,password field not accept lessthan 8 characters,pass
+RDF_RP_10,check whether password blank space only,"1.Open registration page
+2.Enter password in blank space",  ,password field should not accept blank space,password field not accept blank space,pass
+RDF_RP_11,check whether password visible or encripted,"1.Open registration page
+2.Enter password ",********,password field should not visible untill select eye icon,password field not visible,pass
+RDF_RP_12,check whether password visible or encripted,"1.Open registration page
+2.Enter password 
+3.select eye icon or password visible button",shiva123,password field should when visible or eye icon selected ,password field is visible when eye icon selected ,pass
+RDF_RP_13,check whether password is same as user name,"1.Open registration page
+2.Enter password 
+",srt200@,password should not same as username,password field not accept the user as password,pass
+RDF_RP_14,show error message when password is same as user name,"1.Open registration page
+2.Enter password as user name
+",Shiva123,error msg should show when password is same as username,error msg show when password is same as username,pass
+RDF_RP_15,check whether password and confirm password are same ,"1.Open registration page
+2.Enter password 
+3.Enter confirm password
+","pass:shiva123, 
+confirm pass:shiva123",password and confirm password should be same,confirm password is matched with password,pass
+RDF_RP_16,Check based on the inputted password when text is less than 8 should display the progress bar Weak,"1.Open registration page
+2.Enter password lessthan 8 characters
+
+",shiva,Should display weak prograss bar for lessthan 8 character,Succesfuly display weak prograss bar for lessthan 8 character,pass
+RDF_RP_17,Check based on the inputted password when text is more than 8 should display the progress bar Medium,"1.Open registration page
+2.Enter password more than 8 characters without special, numeric characters
+
+",shivajrw,"Should display medium prograss bar when password more than 8 characters without special, numeric characters","successfuly displayed medium prograss bar when password more than 8 characters without special, numeric characters",pass
+RDF_RP_18,"Check based on the inputted password when text is more than 8 and upper, loer case, special, numeric characters should display the progress bar strong","1.Open registration page
+2.Enter password more than 8 characters with upper and lower case, special, numeric characters
+
+",shiva123@,"Should display strong prograss bar when password more than 8 characters include special, numeric,lower and upper case characters","sucessfully displayed strong prograss bar when password more than 8 characters include special, numeric,lower and upper case characters",pass
+RDF_RP_19,"check whether password field contain 8-100 character with upper, lower case letters, special, numbers ","1.Open registration page
+2.Enter upper and lower case letters, special characters, numeric","shiva123,shivA@","password field should contain 8-100 cahracters include alteast one upper and lower case letters and special characters and numbers
+","password field succesfully  contain 8-100 cahracters include alteast one upper and lower case letters and special characters and numbers
+",pass
+RDF_RP_20,check whether registration page contain email text field ,"1.Open registration page
+2.looking for email text field",,Registration page should contain email text filed,Registration page  contain email text filed,pass
+RDF_RP_21,check whether email text field accessibleby clicking ,"1.Open registration page
+2.click email text field",,Email text sould be select when its click,Email text is selected when its click,pass
+RDF_RP_22,check whether user can type email text field,"1.Open registration page
+2.Type email in text field",asda,Email text field sould be typabile,Email text field access for typing,pass
+RDF_RP_23,Check whether the user can paste the email id address by the keyboard CTRL+V ,"1.Open registration page
+2.Copy email address
+3.Paste use/click ctrl+v",shiva@gamil,Email text field sould be accept paste email address by click (ctrl+v),Email text field  accept paste email address by click (ctrl+v),pass
+RDF_RP_24,Check whether the user can paste the email id address by the Mouse Right Click – Paste,"1.Open registration page
+2.Copy email address
+3.Paste use/click Mouse Right Click – Paste",shiva@gamil,Email text field sould be accept paste email address by  use/click Mouse Right Click – Paste,Email text field accept paste email address by  use/click Mouse Right Click – Paste,pass
+RDF_RP_25,Check if the error messages display when the user enters an invalid email address.,"1.Open registration page
+2.Enter email address
+",shivagamil,Email text field sould be show msg when invalid email is enter,Email text field showed msg when invalid email is enter,pass
+RDF_RP_26,Check if the email address contains a @ or not.,"1.Open registration page
+2.Enter email address
+",shiva@gamil,Valid email id sould contain @,Email id  contain with @,pass
+RDF_RP_27,Check if the email field accepts + sign in the email address. ,"1.Open registration page
+2.Enter email address with + sign
+",shiva+1@gamil,Email field should accepts + sign in the email address. ,Email field accepts + sign in the email address. ,pass
+RDF_RP_28,Check if the email address contains a domain name or not.,"1.Open registration page
+2.Enter email address with domain name
+",shiva@rediffgamil,Email field should not accepts domain name in the email address. ,Email field not accepts domain name in the email address. ,pass
+RDF_RP_29,Check whether the email address has the dot (.) or not.,"1.Open registration page
+2.Enter email address with dot(.)
+",shiva@gamil.com,Email field should accepts dot(.) in the email address. ,Email field accepts dot(.) in the email address. ,pass
+RDF_RP_30,Verify if the email address contains special characters,"1.Open registration page
+2.Enter email address with special character(;)
+",shiv;a@gamil.com,Email field should accepts special characters(;) in the email address. ,Email field  accepts special characters(;) in the email address. ,pass
+RDF_RP_31,Verify if the email address contains numbers,"1.Open registration page
+2.Enter email address with numbers
+",shiva2@gamil.com,Email field should accepts numbers in the email address. ,Email field  accepts numbers in the email address. ,pass
+RDF_RP_32,"Check the email address contains square brackets, quotes ” “, dash – or underscore _.","1.Open registration page
+2.Enter email address square brackets, quotes ” “, dash – or underscore _.
+",shi[v'-a_2@gamil.com,"Email field should accepts  square brackets, quotes ” “, dash – or underscore _ in the email address. ","Email field  accepts  square brackets, quotes ” “, dash – or underscore _ in the email address. ",pass
+RDF_RP_33,Check the email id field with two @ signs.,"1.Open registration page
+2.Enter email address with two @ signs
+",shiva@2@gamil.com,Email field should not  accepts two @ signs in the email address. ,Email field  not  accepts two @ signs in the email address. ,pass
+RDF_RP_34,Check the email id text box With the Missing top-level domain ,"1.Open registration page
+2.Enter email address without .com,.net,.org
+",shiva2@gamil,"Email field should not  accepts without .com,.net,.org in the email address. ","Email field not  accepts without .com,.net,.org in the email address. ",pass
+RDF_RP_35,Check error message is displayed for an invalid and already registered email address,"1.Open registration page
+2.Enter email address invalid and already register
+",shiva@gamil.com,Email field should display msg when invalid and already register email address entered,Email field displayed msg when invalid and already register email address entered,pass
+RDF_RP_36,Check whether error msg show when email field is left empty,"1.Open registration page
+",,Email field should display enter mail id msg when email address left empty,Email field  displayed enter mail id msg when email address left empty,pass
+RDF_RP_37,check whether that the placeholder text in the email field is added or not.,"1.Open registration page
+2.Looking for placeholder in email field",,Email field should holds the placeholder enter valid email id ,Email field not holds the placeholder enter valid email id ,fail
+RDF_RP_38,check whether that the availability id is suggest when enter taken id ,"1.Open registration page
+2.Enter email address  already register
+",shiva@gamil.com,Email field should show availability mailid when entered email address is taken,Email field  displayed availability mailid when entered email address is taken,pass
+RDF_RP_39,Check whether alternate email id field is visible,"1.Open registration page
+2.Looking for alternate email field",,Altenate email field should  availabile registration page,Altenate email field is  availabile in registration page,pass
+RDF_RP_40,Check whether alternate email id is valid ,"1.Open registration page
+2.Enter alternate email address   
+",shiva@gamil.com,Altenate email  should  be availabile and valid,Altenate email  is availabile and valid,pass
+RDF_RP_41,Check whether alternate email id check box buttton visible,"1.Open registration page
+2.Looking for check box button",,check box button should visible when no alternative email ,check box button is visibled when no alternative email ,pass
+RDF_RP_42,Check whether check box buttton selectable or clicked,"1.Open registration page
+2.Select check box button select or click option work",,check box button should select or click when is select when no alternative email ,check box button is selected or clicked when is select when no alternative email ,pass
+RDF_RP_43,Check whether check box buttton show availabe option when selectable or clicked,"1.Open registration page
+2.Select check box button 
+3.Look for availble option",,check box buttton should show availabe option when selectable or clicked,check box buttton is shows availabe option when selectable or clicked,pass
+RDF_RP_44,Check whether security question text field visible after select check box,"1.Open registration page
+2.Select check box button 
+3.Look for security question option",,security question text field should visible when check box is select,security question text field is visible when check box is select,pass
+RDF_RP_45,Check whether security question text field selectable when is click,"1.Open registration page
+2.Select security question option 
+",,security question text field should be selectable when is click,security question text field is selected when is click,pass
+RDF_RP_46,Check whether security question text field drop down menu works when is click,"1.Open registration page
+2.Select security question drop down menu
+
+",,security question text field drop down menu should  work when is click,security question text field drop down menu is worked when is click,pass
+RDF_RP_47,Check whether drop down menu shows select security question when is click,"1.Open registration page
+2.Select security question drop down menu 
+3.Look for security questionns
+
+",,Drop down menu should shows options select security question when is click,Drop down menu is shows options select security question when is click,pass
+RDF_RP_48,Check whether drop down menu select security question are selectable when is click,"1.Open registration page
+2.Select security question drop down menu 
+3.select security questions
+
+",,select security question drop down menu should are selectable when is click,select security question drop down menu is selectable when is click,pass
+RDF_RP_49,Check whether enter an answer field visible,"1.Open registration page 
+2.Look for enter an answer
+
+",,Enter an answer field should visible ,Enter an answer field is visible ,pass
+RDF_RP_50,Check whether enter an answer field editable,"1.Open registration page 
+2.Enter an answer in answer field
+
+",food,Enter an answer field should be editable,Enter an answer field editable,pass
+RDF_RP_51,Check whether Mother's Maiden Name field visible,"1.Open registration page 
+2.Look for Mother's Maiden Name field visible
+
+",,Mother's Maiden Name field should be visible,Mother's Maiden Name field is visible,pass
+RDF_RP_52,Check whether Mother's Maiden Name field editable,"1.Open registration page 
+2.Enter Mother's Maiden Name in mothers name field",isla,Mother's Maiden Name field should be editable,Mother's Maiden Name field is editable,pass
+RDF_RP_53,Check whether Mother's Maiden Name field show suggestion enter mothers name before marriage,"1.Open registration page 
+2.Enter Mother's Maiden Name in mothers name field
+3.Look for suggestion enter mothers name before marriage",isla rose,Mother's Maiden Name field should show suggestion enter mothers name before marriage,Mother's Maiden Name field is show suggestion enter mothers name before marriage,pass
+RDF_RP_54,Check whether mobile number field exits in registration page,"1.Open registration page 
+2.Look for mobile number field in registration page",,Mobile number field should exits in registration page,Mobile number field is exits in registration page,pass
+RDF_RP_55,Check whether mobile number field shows country code ,"1.Open registration page 
+2.Look for country code in mobile number field ",,Country code should show in Mobile number field ,Country code is show in Mobile number field ,pass
+RDF_RP_56,Check whether country code selection is work,"1.Open registration page 
+2.Select country code in drop down ",india(+91),country code should selectable in drop down option,country code is selected in drop down option,pass
+RDF_RP_57,Check whether country code selection show correctly,"1.Open registration page 
+2.Select country code in drop down ",UK(+44),country code shoould show correct country code,country code is show correct country code,pass
+RDF_RP_58,Check whether enter a valid format mobile number in field ,"1.Open registration page 
+2.Enter mobile number",1234567890,Should enter a valid format mobile number in field ,Successfully enter a valid format mobile number in field ,pass
+RDF_RP_59,Check whether mobile number  field accept alphapets,"1.Open registration page 
+2.Enter alphapets in mobile number field",asdew234sa,mobile number  field should not accept alphapets,mobile number  field not accept alphapets,pass
+RDF_RP_60,Check whether mobile number  field accept special characters,"1.Open registration page 
+2.Enter special characters in mobile number field",3902*&##@,mobile number  field should not accept special characters,mobile number  field  not accept special characters,pass
+RDF_RP_61,Check whether copy paste work mobile number field  ,"1.Open registration page 
+2.Enter copy paste in mobile number field",8394200000,mobile number  field should  accept copy paste,mobile number  field  accept copy paste,pass
+RDF_RP_62,Check whether mobile number field accept 10 digit mobilr numbers,"1.Open registration page 
+2.Enter 10 digit mobile number in field",9876534231,mobile number  field should  accept 10 digit number,mobile number  field accept 10 digit number ,pass
+RDF_RP_63,Verify by entering the less number than the actual mobile number,"1.Open registration page 
+2.Enter less number than actual mobile number field",9876534,mobile number  field should not accept less number than actual number,mobile number  field  not accept less number than actual number,pass
+RDF_RP_64,Verify by entering the more number than the actual mobile number,"1.Open registration page 
+2.Enter more number than actual mobile number field",123456789012,mobile number  field should not accept more number than actual number,mobile number  field  not accept more number than actual number,pass
+RDF_RP_65,Verify field accepts the space (s) between the mobile number ,"1.Open registration page 
+2.Enter mobile number with space mobile field",12345 67890,Should not accepts the space (s) between the mobile number ,Not accepts the space (s) between the mobile number ,pass
+RDF_RP_66,Verify field accepts the space (s) between the mobile number or not according to the format  requirements.,"1.Open registration page 
+2.Enter mobile number with space mobile field ",12345 67890,Should accepts the space (s) between the mobile number for format requirements,Not accepts the space (s) between the mobile number ,fail
+RDF_RP_67,Verify an error message shown for the blank input for the Mobile Number Field,"1.Open registration page 
+2.Left mobile number field empty",,Should not accepts the empty in mobile number field,Not accepts the empty in mobile number field,pass
+RDF_RP_68,Verify correct mobile number is saved in the database or not by click on the Save or Next button,"1.Open registration page 
+2.Enter valid mobile number",1234567890,Correct mobile number is should  saved in the database when it save ,Correct mobile number is   saved in the database when it save ,pass
+RDF_RP_69,Check whether  error messages are show if less number enter than actual,"1.Open registration page 
+2.Enter less number than actual mobile number",12345,error messages should  show if less number enter than actual,error messages is show when less number enter than actual,pass
+RDF_RP_70,Check whether  error messages are show if more number enter than actual,"1.Open registration page 
+2.Enter more number than actual mobile number",12345678909,Error messages should  show  enter more number than actual,error messages is  show when enter more than actual,pass
+RDF_RP_71,Check whether mobile number field accept only 10 digit mobilr numbers not more than 10 exclude country code,"1.Open registration page 
+2.Enter more than 10 digit mobile number in field",12345678900,mobile number  field should not accept more than 10 digit number,mobile number  field  not accept more than 10 digit number,pass
+RDF_RP_72,"check whether password field accept without combination of  upper, lower case letters, special characters and numbers ","1.Open registration page
+2.Enter without any one of these combination upper and lower case letters, special characters, numeric with","shiva123,shivA@","password field should not accept alteast one upper and lower case letters and special characters and numbers password 
+","password field not alteast one upper and lower case letters and special characters and numbers password 
+",pass
+RDF_RP_73,Check  password field show error msg when enter less than 8 characters,"1.Open registration page
+2.Enter password less than 8 characters 
+",shiva,Password field should show error msg when less than 8 characters enter,Password field succesfuly show error msg when less than 8 characters enter,pass
+RDF_RP_74,Check  password field show error msg when enter more than 100 characters,"1.Open registration page
+2.Enter password more than 100 characters 
+",12345678901234500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.00,Password field should show error msg when more than 100 characters enter,Password field successful show error msg when more than 100 characters enter,pass
+RDF_RP_76,Verify that the country dropdown field is visible,"1.Open registration page
+2.Look for country dropdown box",,country dropdown field should be  visible,country dropdown field is  visible,pass
+RDF_RP_77,Verify that the country  field exits in registration page,"1.Open registration page
+2.Look for country field",,country  field should be  exits in registration page,country  field is exits in registration page,pass
+RDF_RP_78,Verify that the country dropdown field is clickable or not.,"1.Open registration page
+2.Select country in country dropdown box",,country dropdown field should be clickable and selectable,country dropdown field is clickable and selectable,pass
+RDF_RP_79,Verify that if the user clicks on the country dropdown field then the country list should be displayed,"1.Open registration page
+2.Look for country list in country dropdown box","Australia, England etc",When user clicks on the country dropdown field then the country list should be displayed,When user clicks on the country dropdown field then the country list is displayed,pass
+RDF_RP_80,Verify that if the user select country in the country dropdown field then the country  should be selected,"1.Open registration page
+2.Select country in list of country dropdown box",Australia,When user select country in the country dropdown field then the country should be selected,When user select country in the country dropdown field then the country successfuly selected,pass
+RDF_RP_81,Verify that if the user clicks on the country dropdown field then the country list should be display with flag,"1.Open registration page
+2.Look for country flag in country dropdown box",,When user clicks on the country dropdown field then the country list should be display with flag,When user clicks on the country dropdown field then the country list not display with flag,fail
+RDF_RP_82,Verify that if the user select country in the country dropdown field then the country  should be display with flag,"1.Open registration page
+2.Select country in list of country dropdown box",Australia,When user select country in the country dropdown field then the country should be display with flag,When user select country in the country dropdown field then the country is not display  flag of the country,fail
+RDF_RP_83,Verify that if the user leaves a blank country field then validation error message should be displayed,"1.Open registration page
+2.Empty country field",,When user leaves a blank country field then validation error message should be displayed,When user leaves a blank country field then validation error message is displayed,pass
+RDF_RP_84,Verify that the user is able to select multiple countries from the drop down or not,"1.Open registration page
+2.Select multiple country in list of country dropdown box","Australia, England etc",user is should not able to select multiple countries from the drop down ,user is  not anable to select multiple countries from the drop down ,pass
+RDF_RP_85,Verify that the city dropdown field is visible,"1.Open registration page
+2.Look for city dropdown box",,City dropdown field should be  visible,City dropdown field is  visible,pass
+RDF_RP_86,Verify that the city  field exits in registration page,"1.Open registration page
+2.Look for city field",,City  field should be  exits in registration page,City  field is exits in registration page,pass
+RDF_RP_87,Verify that the City dropdown field is clickable or not.,"1.Open registration page
+2.Select City in City dropdown box",,City dropdown field should be clickable and selectable,City dropdown field is clickable and selectable,pass
+RDF_RP_88,Verify that if the user clicks on the city dropdown field then the city list should be displayed,"1.Open registration page
+2.Look for city list in country city box","Coimbatore, Trichy etc",When user clicks on the city dropdown field then the city list should be displayed,When user clicks on the city dropdown field then the city list is displayed,pass
+RDF_RP_89,Verify that if the user select city in the city dropdown field then the city  should be selected,"1.Open registration page
+2.Select city in list of city dropdown box",Coibatore,When user select city in the city dropdown field then the city should be selected,When user select city in the city dropdown field then the city successfuly selected,pass
+RDF_RP_90,Verify that if the user leaves a blank city field then validation error message should be displayed,"1.Open registration page
+2.Left empty city field",,When user leaves a blank country field then validation error message should be displayed,When user leaves a blank country field then validation error message is displayed,pass
+RDF_RP_91,Verify that the user is able to select multiple citys from the drop down or not,"1.Open registration page
+2.Select multiple citys in list of city dropdown box","Australia, England etc",user is should not able to select multiple citys from the drop down ,user is  not anable to select multiple citys from the drop down ,pass
+RDF_RP_92,Check whether the radio button is presented on the registration page,"1.Open registration page
+2.Look for radio button registration page",,The radio button should be  presented in the registration page,The radio button is presented in the registration page,pass
+RDF_RP_93,Check whether the radio button is presented on the registration page as per the design,"1.Open registration page
+2.Check radio button design in registration page",,The radio button sholud be  presented on the registration page as per the design,The radio button is  presented on the registration page as per the design,pass
+RDF_RP_94,Check the shape of the radio button as per the SRS document,"1.Open registration page
+2.Check shape of the radio button as per srs in registration page",,The shape of the radio button should be same as SRS document,The shape of the radio button is same as SRS document,pass
+RDF_RP_95,Check whether label text is present for the radio buttons or not,"1.Open registration page
+2.Check label text  is present in radio button",,Label text should be present in the radio buttons ,Label text is present in the radio buttons ,pass
+RDF_RP_96,Check whether label text is present for the radio buttons are correctly,"1.Open registration page
+2.Check label text  is present in radio button are correct(Male, Female)",,Label text should be present in the radio buttons  in correctly,Label text is present in the radio buttons  are correct,pass
+RDF_RP_97,Check whether the radio buttons are selectable,"1.Open registration page
+2.Check radio button are selectable",Male,The radio buttons should be  selectable,The radio buttons successfuly  selected,pass
+RDF_RP_98,Check whether the radio buttons are select a correct option what you select,"1.Open registration page
+2.Check radio button are select correct what we select",Male,The radio buttons should be  select a correct option what we select,The radio buttons is selected a correct option what we select,pass
+RDF_RP_99,Check whether user can select multiple radio buttons,"1.Open registration page
+2.select multiple option in radio button ","Male, Female",The radio buttons should not  select multiple lable or option ,The radio buttons successfuly  not select multiple lable or option ,pass
+RDF_RP_100,check whether user can choose any option from radio buttons by pressing the tab key by the keyboard,"1.Open registration page
+2.select multiple option in radio button by using tab key in keyboard",male,user should be  select a correct radio buttons option through keyboard use tab key ,user cant select a correct radio buttons option through keyboard use tab key ,fail
+RDF_RP_101,Check whether user can select only radio buttons,"1.Open registration page
+2.select one option in radio button ",Male,The radio buttons should be  select ony one lable or option ,The radio buttons successfuly   select only one lable or option ,pass
+RDF_RP_102,"check whether clicking on the label text, radio button value selected or not","1.Open registration page
+2.select one option in radio button label text ",male,"Clicking on the label text, radio button value should be selected ",Radio button value not select when clicking on the label text,fail
+RDF_RP_103,Check whether default selection of the radio button select as per the SRS document,"1.Open registration page
+2.check radio button select default option/selection",Male,Default selection of the radio button should be selected as per the SRS document,Default selection of the radio button successfuly selected th eoption as per the SRS document,pass
+RDF_RP_104,Check whether the captcha available on registration page,"1.Open registration page
+2.Look for captcha in registration page",,Captcha should be available in registration page,Captcha is available in registration page,pass
+RDF_RP_105,Check whether type of captcha text or text image,"1.Open registration page
+2.Look for type of captcha in registration page",,Captcha should be type of text image on registration page,Captcha is type of text image on registration page,pass
+RDF_RP_106,Check whether the captcha is loaded properly or not on the page,"1.Open registration page
+2.Look for captcha is loaded properly in registration page",,The captcha should be loaded properly on the registration page,The captcha successfuly loaded properly on the registration page,pass
+RDF_RP_107,Verify that the user should be able to change the captcha without reloading the webpage,"1.Open registration page
+2.Look for change captcha without reload registration page",,user should be able to change the captcha without reloading the webpage ,user not able to change the captcha without reloading the webpage ,fail
+RDF_RP_108,Check whether user can be able to refresh the captcha,"1.Open registration page
+2.Look for refresh captcha without reload registration page",,user should be able to refresh the captcha,user not anable to refresh the captcha,fail
+RDF_RP_109,Check whether user is able to skip captcha or not,"1.Open registration page
+2.Left empty captcha on registration page",,user should not skip captcha on registration page,user not skip captcha on registration page,pass
+RDF_RP_110,Check whether when user skip captcha the error msg is show,"1.Open registration page
+2.Left empty captcha on registration page",,The error msg should be show when user skip captcha ,The error msg show successsful when user skip captcha ,pass
+RDF_RP_111,Verify that the captcha audio option is available or not,"1.Open registration page
+2.Enter captcha in text field",captcha,The captcha audio option should be available in webpage,The captcha audio option not available in webpage,fail
+RDF_RP_112,Check whether the new captcha should be displayed after the session expires,"1.Open registration page
+2.Look for new captcha in text field after session expired",,The new captcha should be displayed after the session expires,The new captcha is displayed after the session expires,pass
+RDF_RP_113,Check whether the duration/time limit of captcha displayed in session ,"1.Open registration page
+2.Look for captcha duration for the session ",,The duration/time limit of captcha should be displayed in session ,The duration/time limit of captcha not displayed in session ,fail
+RDF_RP_114,check whether the webpage should be able to accept valid captcha,"1.Open registration page
+2.Enter captcha on webpage",ks12J,The webpage should be able to accept valid captcha,The webpage successfully accept valid captcha,pass
+RDF_RP_115,check whether the entered captcha should be valid,"1.Open registration page
+2.Enter captcha on webpage",K2S3,The webpage should be accept valid captcha,The webpage should be accept valid captcha,pass
+RDF_RP_116,Check whether the Captcha code on the screen is visible to the user,"1.Open registration page
+2.Look for clear captcha on webpage",,The Captcha code on the screen should be clearly visible to the user,The Captcha code on the screen is clearly visible to the user,pass
+RDF_RP_117,Check that the Captcha code is reusable or Not ,"1.Open registration page
+2.Enter captcha on webpage",23us,The Captcha code should be not reusable,The Captcha code is not reusable,pass
+RDF_RP_118,Check whether the Captcha code generates a new code once the user enters the wrong Captcha,"1.Open registration page
+2.Enter captcha on webpage",2eda,The Captcha code should be generates a new code once the user enters the wrong Captcha,The Captcha code succesfuly generates a new code once the user enters the wrong Captcha,pass
+RDF_RP_119,Check that the copy-paste for the Captcha code should be hidden,"1.Open registration page
+2.Copy paste captcha on webpage",we2,The copy-paste of the Captcha code should not be available,The copy-paste Captcha code is not be available,pass
+RDF_RP_120,Check whether the Captcha code should be Case Sensitivity Upper cases and lower case,"1.Open registration page
+2.Enter captcha code on webpage in case sensitive ",Wd2A,The Captcha code should be Case Sensitivity,The Captcha code is Case Sensitivity,pass
+RDF_RP_121,Check whether the Captcha code accept misspeled case sensitive,"1.Open registration page
+2.Enter captcha code on webpage in misspeled case sensitive ",wD2a,The Captcha code should not accept misspeled case sensitive,The Captcha code successfuly not accept misspeled case sensitive,pass
+RDF_RP_122,Check whether the webpage should display an alert message when the user enters the wrong Captcha code,"1.Open registration page
+2.Enter wrong captcha code on webpage ",wD2a,The webpage should display an alert message when the user enters the wrong Captcha code,The webpage successfuly displayed an alert message when the user enters the wrong Captcha code,pass
+RDF_RP_123,"Check that the Captcha code should not confusing, For Zero and O, numbers 6 and 9","1.Open registration page
+2.Enter captcha code on webpage ",woS9,"The Captcha code should not confusing, For Zero and O, numbers 6 and 9","The Captcha code  not confusing, For Zero and O, numbers 6 and 9",pass
+RDF_RP_124,Check whether the captcha entered text field available on registration page,"1.Open registration page
+2.Look for captcha text field in registration page",,Captcha text field should be available in registration page,Captcha text field is available in registration page,pass
+RDF_RP_125,Check whether the captcha entered text field selectable on registration page,"1.Open registration page
+2.Select captcha text field in registration page",,Captcha text field should be selectable in registration page,Captcha text field is selectable in registration page,pass
+RDF_RP_126,Check whether the captcha entered text field editable on registration page,"1.Open registration page
+2.Edit captcha text field in registration page",cs9P,Captcha text field should be editable in registration page,Captcha text field is editable in registration page,pass
+RDF_RP_127,Check whether the captcha  text field accept valid captcha on registration page,"1.Open registration page
+2.Enter captcha in captcha text field in registration page",3DFH,The captcha  text field should be accept valid captcha,The captcha  text field successfuly accept valid captcha,pass
+RDF_RP_128,Check whether the captcha  text field accept copy paste captcha on registration page,"1.Open registration page
+2.Enter copy paste captcha in captcha text field in registration page",s4Ra,The captcha  text field should not accept copy paste captcha on registration page,The captcha  text field successfuly not accept copy paste captcha on registration page,pass
+RDF_RP_129,Check whether dob field visible in registration page,"1.Open registration page
+2.Look for DoB text field",,Dob field should visible in registration page,Dob field  visible in registration page,pass
+RDF_RP_130,Check whether dob field selectable in registration page,"1.Open registration page
+2.Select DoB  field",,Dob field should selectable in registration page,Dob field  selectable in registration page,pass
+RDF_RP_131,Verify that type of the date of birth field (dd-mon-yyyy) (24-Mar-2023),"1.Open registration page
+2.check DoB  field format/type",,Type of the date of birth field should be in format dd-mon-yyyy (24-Mar-2023),Type of the date of birth field  in format dd-mon-yyyy (24-Mar-2023),pass
+RDF_RP_132,Verify that the days dropdown is presented on dob field ,"1.Open registration page
+2.Look for days dropdown in DoB  field ",,The days dropdown is should be presented in dob field ,The days dropdown is  presented in dob field ,pass
+RDF_RP_133,Verify that the user is able to select the Days drop-down list or not,"1.Open registration page
+2.Select days dropdown in DoB  field ",24,The user is should be able to select the Day in drop-down list ,The user is successfuly select the Day in drop-down list ,pass
+RDF_RP_134,Verify that the user is able to editable/changable the Days drop-down list or not,"1.Open registration page
+2.Change/edit days dropdown in DoB  field ",14,The user is should be able to editable/changable the Day in drop-down list,The user is successfuly editable/changable the Day in drop-down list,pass
+RDF_RP_135,"Chech whether  the user is able to editable/changable the Day in drop-down list using keybord up, dow, left, right keys","1.Open registration page
+2.Change/edit days dropdown in DoB  field using up,down keys in keyboard",23,"The user is should able to editable/changable the Day in drop-down list using keybord up, dow, left, right keys","The user is successfuly editable/changable the Day in drop-down list using keybord up, dow, left, right keys",pass
+RDF_RP_136,Check whethert 1 to 31 days should be displayed in the Days dropdown list,"1.Open registration page
+2.Look for 1 to 31  days in dropdown list of DoB  field ",,1 to 31 days should be displayed in the Days dropdown list,1 to 31 days succesfuly displayed in the Days dropdown list,pass
+RDF_RP_137,"Check whethert feb month accept 30,31 days in the Days dropdown list","1.Open registration page
+2.Select feb 30,31  days in dropdown list of DoB  field ","30-feb-2023,31-feb-2023","Feb month should not accept 30,31 days in the Days dropdown list","Feb month succesfuly  not accept 30,31 days in the Days dropdown list",pass
+RDF_RP_138,"Check whethert error msg show when user enter feb month accept 30,31 days in the Days dropdown list","1.Open registration page
+2.Select feb 30,31  days in dropdown list of DoB  field ","30-feb-2023,31-feb-2023","Error msg should be display when user enter feb month 30,31 days in the Days dropdown list","Error msg successfuly display when user enter feb month 30,31 days in the Days dropdown list",pass
+RDF_RP_139,Check whethert error msg show when user enter non-leap year feb month accept 29 day in dropdown list,"1.Open registration page
+2.Select feb 29  day in non-leap year in dropdown list of DoB  field ",29-feb-2023,Error msg should be show when user enter non-leap year feb month accept 29 day in dropdown list,Error msg successfuly show when user enter non-leap year feb month accept 29 day in dropdown list,pass
+RDF_RP_140,Check whethert  when user enter leap year feb  accept 29 day in dropdown list,"1.Open registration page
+2.Select feb 29  day in leap year in dropdown list of DoB  field ",29/Feb/2020,Day should be accept when user enter leap year feb  29 day in dropdown list,Day successfuly accept when user enter leap year feb  29 day in dropdown list,pass
+RDF_RP_141,Verify that the month dropdown is presented on dob field ,"1.Open registration page
+2.Look for month dropdown in DoB  field ",,The month dropdown is should be presented in dob field ,The month dropdown is  presented in dob field ,pass
+RDF_RP_142,Verify that the user is able to select the month drop-down list or not,"1.Open registration page
+2.Select month dropdown in DoB  field ",Apr,The user is should be able to select the month in drop-down list ,The user is successfuly select the month in drop-down list ,pass
+RDF_RP_143,Verify that the user is able to editable/changable the month drop-down list or not,"1.Open registration page
+2.Change/edit month dropdown in DoB  field ",Mar,The user is should be able to editable/changable the month in drop-down list,The user is successfuly editable/changable the month in drop-down list,pass
+RDF_RP_144,"Chech whether  the user is able to editable/changable the month in drop-down list using keybord up, dow, left, right keys","1.Open registration page
+2.Change/edit month dropdown in DoB  field using up,down keys in keyboard",Jan,"The user is should able to editable/changable the month in drop-down list using keybord up, dow, left, right keys","The user is successfuly editable/changable the month in drop-down list using keybord up, dow, left, right keys",pass
+RDF_RP_145,Check whethert Jan to Dec month should be displayed in the month dropdown list,"1.Open registration page
+2.Look for Jan to Dec  month in dropdown list of DoB  field ",Jan to Dec,Jan to Dec month should be displayed in the month dropdown list,Jan to Dec months succesfuly displayed in the month dropdown list,pass
+RDF_RP_146,Verify that the year dropdown is presented on dob field ,"1.Open registration page
+2.Look for year dropdown in DoB  field ",,The year dropdown is should be presented in dob field ,The year dropdown is  presented in dob field ,pass
+RDF_RP_147,Verify that the user is able to select the year drop-down list or not,"1.Open registration page
+2.Select year dropdown in DoB  field ",2020,The user is should be able to select the year in drop-down list ,The user is successfuly select the year in drop-down list ,pass
+RDF_RP_148,Verify that the user is able to editable/changable the year drop-down list or not,"1.Open registration page
+2.Change/edit year dropdown in DoB  field ",2021,The user is should be able to editable/changable the year in drop-down list,The user is successfuly editable/changable the year in drop-down list,pass
+RDF_RP_149,"Chech whether  the user is able to editable/changable the year in drop-down list using keybord up, dow, left, right keys","1.Open registration page
+2.Change/edit year dropdown in DoB  field using up,down keys in keyboard",2022,"The user is should able to editable/changable the year in drop-down list using keybord up, dow, left, right keys","The user is successfuly editable/changable the year in drop-down list using keybord up, dow, left, right keys",pass
+RDF_RP_150,Verify that years should be listed as per requirements in the Years drop-down list,"1.Open registration page
+2.check years in dropdown list of DoB  field as per requirement",1923-2023,Years should be listed as per requirements in the Years drop-down list,Years are listed as per requirements in the Years drop-down list,pass
+RDF_RP_151,Check whether the future years are listed in years dropdown,"1.Open registration page
+2.Look for future years in dropdown list of DoB field",,The future years should not  listed in years dropdown,The future years is not  listed in years dropdown,pass
+RDF_RP_152,"Check whether the error msg show when future days, months, years are select in years dropdown","1.Open registration page
+2.Select future day, month, year in dropdown list of DoB field",10/May/2023,"the error msg should be show when future days, months, years are select in years dropdown","the error msg successfully  show when future days, months, years are select in years dropdown",pass
+RDF_RP_153,"Check whether user left empty days, months, years dropdown","1.Open registration page
+2.Left empty day, month, year in dropdown list of DoB field",,"Should not accept when user left empty days, months, years dropdown","Not accept when user left empty days, months, years dropdown",pass
+RDF_RP_154,"Check whether the error msg show when user left empty days, months, years dropdown","1.Open registration page
+2.Left empty day, month, year in dropdown list of DoB field",,"The error msg should be show when user left empty days, months, years dropdown","The error msg succcessfully show when user left empty days, months, years dropdown",pass
+RDF_RP_155,Verify that the user is able to select a multiple options drop-down list or not,"1.Open registration page
+2.Select multiple day, month, year in dropdown list of DoB field","10,10-Apr,Mar-2020,2021",Should not accept the user select a multiple options drop-down list ,Successful not accept the user select a multiple options drop-down list ,pass
+RDF_RP_156,Check whether the create my account submit button is present on the  web page,"1.Open registration page
+2.Look for create my account submit button",,The create my account submit button should be  present on the  web page,The create my account submit button succeesfuly  present on the  web page,pass
+RDF_RP_157,Check whether the create my account submit button is present on the page as per the design on the web page,"1.Open registration page
+2.Look for create my account submit button design as for requirments",,The create my account submit button should be  present on the page as per the design on the web page,The create my account submit button successfully  present on the page as per the design on the web page,pass
+RDF_RP_158,Check whether the  create my account submit button should be clickable/selectable,"1.Open registration page
+2.Select create my account submit button",,Create my account submit button should be clickable/selectable,Create my account submit button is clicked/selected,pass
+RDF_RP_159,"Check that the whole button should be clickable, not only the text","1.Open registration page
+2.Select create my account submit button",,The whole create my account submit button should be clickable/selectable not only the text,The whole create my account submit button successfully  clicked/selected ,pass
+RDF_RP_160,Check whether the values saved when user clicking the create my accout button ,"1.Open registration page
+2.Select create my account submit button to save",,The values should be saved when the user clicking the create my accout button ,The values successfully saved when the user clicking the create my accout button ,pass
+RDF_RP_161,Check whether the values saved correctly in database when user clicking the create my accout button ,"1.Open registration page
+2.Select create my account submit button to save
+3.Check the data correctly saved in database",,The values should be saved correctly in database when user clicking the create my accout button ,The values successfully saved correctly in database when user clicking the create my accout button ,pass
+RDF_RP_162,Check whether the page is reload/redirect new page when user clicking the create my accout button,"1.Open registration page
+2.Select create my account submit button to save
+3.Check the new page is open",,The page should be redirect to new page when user clicking the create my accout button,The page successfully reload/redirect to new page when user clicking the create my accout button,pass
+RDF_RP_163,Check whether the page is reload/redirect to verify otp page when user clicking the create my accout button,"1.Open registration page
+2.Select create my account submit button to save
+3.Check the verify otp page is open",,The page should be reload/redirect to verify otp page when user clicking the create my accout button,The page successfully reload/redirect to verify otp page when user clicking the create my accout button,pass
+ ,Check whether the registraton page contains term & condition,"1.Open registration page
+2.Look for terms & condition",,The registraton page should be contains term & condition,The registraton page is contains term & condition,pass
+RDF_RP_165,Verify that the “terms and conditions” checkbox is presented,"1.Open registration page
+2.Look for terms & condition checkbox",,The “terms and conditions” checkbox should be presented in web page,The “terms and conditions” checkbox is not presented in web page,fail
+RDF_RP_166,Verify that the validation message is displayed when clicking on submit button without selecting “terms and conditions” checkbox,"1.Open registration page
+2.Select create my account submit button to save
+3.Check the validation msg",,The validation message should be displayed when clicking on submit button without selecting “terms and conditions” checkbox,The validation message not  displayed when clicking on submit button without selecting “terms and conditions” checkbox,fail
+RDF_RP_167,Check whether the registraton page contains term & condition with unique color,"1.Open registration page
+2.Look for terms & condition ",,The registraton page should be contains term & condition in unique color,The registraton page successfully contains term & condition in unique color,pass
+RDF_RP_168,Check whether the term & condition reload/redirect new page when its clicked/selected,"1.Open registration page
+2.Select terms & condition 
+3.Look for new page",,The term & condition should be reload/redirect new page when its clicked/selected,The term & condition successfully reload/redirect new page when its clicked/selected,pass
+RDF_RP_169,Check whether the registraton page contains privacy policy,"1.Open registration page
+2.Look for privacy policy",,The registraton page should contains privacy policy,The registraton page is contains privacy policy,pass
+RDF_RP_170,Check whether the registraton page contains privacy policy with unique color,"1.Open registration page
+2.Look for privacy policy",,The registraton page should contains privacy policy with unique color,The registraton page is contains privacy policy with unique color,pass
+RDF_RP_171,Check whether the privacy policy is clickable/selectable,"1.Open registration page
+2.Select privacy policy",,The privacy policy should be  clickable/selectable,The privacy policy is successfully   clicked/selected,pass
+RDF_RP_172,Check whether the privacy policy reload/redirect new page when its clicked/selected,"1.Open registration page
+2.Select privacy policy
+3.Look for new page",,The privacy policy should be reload/redirect new page when its clicked/selected,The privacy policy successfully reload/redirect new page when its clicked/selected,pass
+RDF_RP_173,Check whether the cursor is move to next text field when tab key is press in keyboard,"1.Open registration page
+2.Select tab key in keybord",,The cursor should be  move to next text field/iteration when tab key is press in keyboard,The cursor successfully  moved to next text field/iteration when tab key is press in keyboard,pass
+RDF_RP_174,Check whether the cursor is move forward text field when tab key is press in keyboard,"1.Open registration page
+2.Select tab key in keybord",,The cursor should be move forward text field when tab key is press in keyboard,The cursor successfully moved forward text field when tab key is press in keyboard,pass
+RDF_RP_175,Check whether the cursor is move to previous text field when shift+tab key is press in keyboard,"1.Open registration page
+2.Select shift+tab key in keybord",,The cursor should be  move to previous text field/iteration when shift+tab key is press in keyboard,The cursor successfully  moved to previous text field/iteration when shift+tab key is press in keyboard,pass
+RDF_RP_176,Check whether the cursor is move to backword text field when shift+tab key is press in keyboard,"1.Open registration page
+2.Select shift+tab key in keybord",,The cursor should be  move to backword text field/iteration when shift+tab key is press in keyboard,The cursor successfully  moved to backword text field/iteration when shift+tab key is press in keyboard,pass
+RDF_RP_177,Check whether the compulsory text field contain * to represent its compulsory field,"1.Open registration page
+2.look for compulsory * mark on text field ",,The compulsory text field should be contain * to represent its compulsory field,The compulsory text field not contain * to represent its compulsory field,fail
+RDF_RP_178,Check whether the optional text field contain optional text placeholder  to represent its optional field ,"1.Open registration page
+2.look for optional placeholder text in optional field ",,The optional text field should contain optional text placeholder  to represent its optional field,The optional text field not contain optional text placeholder  to represent its optional field,fail
+RDF_RP_179,check whether the full name text field holds  Enter full name placeholder,"1.Open registration page
+2.look for enter full name placeholder in full name text field ",,The full name text field should holds  Enter full name placeholder,The full name text field is not  holds  Enter full name placeholder,fail
+RDF_RP_180,check whether the choose rediff mail text field holds  enter mail id placeholder,"1.Open registration page
+2.look for enter mail id placeholder in email text field ",,The email text field should holds  Enter email id placeholder,The email text field is not  holds  Enter email id placeholder,fail
+RDF_RP_181,check whether the password text field holds enter password placeholder,"1.Open registration page
+2.look for enter password placeholder in password text field ",,The password text field should holds  Enter password placeholder,The password text field is not  holds  Enter password placeholder,fail
+RDF_RP_182,check whether the retype password text field holds enter re-enter password placeholder,"1.Open registration page
+2.look for re-enter password placeholder in retype password text field ",,The retype password text field should holds  re-enter password placeholder,The password text field is not  holds  re-enter password placeholder,fail
+RDF_RP_183,check whether the alternate mail address text field holds  enter alternate mail id placeholder,"1.Open registration page
+2.look for enter alternate mail id placeholder in alternative email address text field ",,The alternative email address text field should holds  Enter alternative email placeholder,The alternative email address text field is not  holds  Enter alternative email placeholder,fail
+RDF_RP_184,check whether the mobile no text field holds enter mobile no placeholder,"1.Open registration page
+2.look for enter mobile no  placeholder in mobile no  text field ",,The mobile no text field should holds  Enter mobile no placeholder,The mobile no  text field is not  holds  Enter mobile no placeholder,fail
+RDF_RP_185,check whether the captcha text field holds enter captcha placeholder,"1.Open registration page
+2.look for enter captcha placeholder in captcha text field ",,The captcha text field should holds  Enter captcha placeholder,The captcha text field is not  holds  Enter captcha placeholder,fail
+RDF_RP_186,Verify that the date of birth field should not allow the dates greater than current date,"1.Open registration page
+2.Select greater than current date",27/Apr/2023,The date of birth field should not allow the dates greater than current date,The date of birth field not allowed the dates greater than current date,pass
+RDF_RP_187,Check whether the date of birth is age limit of 18 ,"1.Open registration page
+2.Select date of birth",10/May/2010,The date of birth should check age limit of 18 ,The date of birth is not check age limit of 18 ,fail
+RDF_RP_188,Check whether the page should not allow age limit is less than 18 ,"1.Open registration page
+2.Select date of birth",10/May/2010,The page should not allow age  is less than 18 ,The page allowed age  is less than 18 ,fail
+RDF_RP_189,Check whether page should show msg when age is less than 18 ,"1.Open registration page
+2.Select date of birth",10/May/2010,Page should be show msg when age is less than 18 ,Page not show msg when age is less than 18 ,fail
+RDF_RP_190,Check whether page should allow age is greater than 18 ,"1.Open registration page
+2.Select date of birth",10/May/2000,Page should allow age is greater than 18 ,Page is allow age is greater than 18 ,pass
